@@ -4,7 +4,7 @@ import numpy
 import numpy as np
 from PIL import Image
 
-PREDICTOR_PATH = r"/api/shape_predictor_68_face_landmarks.dat"
+PREDICTOR_PATH = r"/home/braindeadpaul/braindeadpaul.pythonanywhere.com/api/shape_predictor_68_face_landmarks.dat"
 # PREDICTOR_PATH = r"C:\RestAPI\shape_predictor_68_face_landmarks.dat"
 SCALE_FACTOR = 1
 FEATHER_AMOUNT = 11
