@@ -15,7 +15,7 @@ def send_image_via_email(request, result_image, result_string):
         result_name = str(result_image.name)
 
         pillow_image = Image.open(BytesIO(base64.b64decode(result_string)))
-        path = f"/app/uploaded_pictures/pictures/results/{result_name}"
+        path = f"/home/braindeadpaul/braindeadpaul.pythonanywhere.com/uploaded_pictures/pictures/results/{result_name}"
 
         pillow_image.save(path)
 
