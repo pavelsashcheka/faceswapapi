@@ -168,7 +168,7 @@ def read_im_and_landmarks(im):
 
 def faceswap(image, background):
     pil_img = Image.open(image)
-    background_image = Image.open(f'api/backgrounds/{background}')
+    background_image = Image.open(f'/home/braindeadpaul/braindeadpaul.pythonanywhere.com/api/backgrounds/{background}')
     cv_image = cv2.cvtColor(np.array(pil_img), cv2.IMREAD_COLOR)
     # background_cv_image = cv2.cvtColor(cv2.UMat(background), cv2.IMREAD_COLOR)
     background_cv_image = cv2.cvtColor(np.array(background_image), cv2.IMREAD_COLOR )
